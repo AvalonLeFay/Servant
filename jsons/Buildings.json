@@ -60,7 +60,7 @@
 		"uniqueTo": "Chaldea",
 		"cost": 1,
 		"isNationalWonder": true,
-		"unique": ["[+10]% [Culture] [in all cities]","[+100]% Production when constructing [Culture] buildings [in all cities]",
+		"uniques": ["[+10]% [Culture] [in all cities]","[+100]% Production when constructing [Culture] buildings [in all cities]",
 			"[+100]% Culture cost of natural border growth [in all cities]", "[-50]% Culture cost of adopting new Policies",
 			"[+1 Culture] per [1] population [in all cities]", "[+1 Culture] from [All] tiles [in all cities]"],
 	}

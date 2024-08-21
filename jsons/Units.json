@@ -68,4 +68,30 @@
 		"cost": 9999,
 		"uniques": ["[-50]% Strength <when defending>", "Unbuildable", "[+50]% Strength <when attacking>"],
 	},
+	{
+		"name": "Skeleton",
+		"unitType": "Sword",
+		"uniqueTo": "Chaldea",
+		"replaces": "Warrior",
+		"movement": 2,
+		"strength": 4,
+		"cost": 10,
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Dragon tooth Warrior",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Dragon tooth Warrior",
+		"unitType": "Sword",
+		"uniqueTo": "Chaldea",
+		"replaces": "Swordsman",
+		"movement": 2,
+		"strength": 10,
+		"cost": 50,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
 ]
